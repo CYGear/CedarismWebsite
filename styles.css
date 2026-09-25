@@ -1,0 +1,36 @@
+.title {
+    text-align: center;
+    color: yellow;
+    font-size: 20px;
+}
+
+.books {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.bookButton {
+    background-color: green;
+    color: yellow;
+    padding: 8px;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.book-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.current-book {
+    width: 100%;
+    height: 500px;
+    border-color: yellow;
+}
+
+body {
+    background-color: blueviolet;
+}

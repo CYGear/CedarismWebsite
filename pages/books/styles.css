@@ -1,0 +1,18 @@
+.chapter-title {
+    color: blue;
+}
+
+.chapter1 {
+    color: green;
+    font-size: 20;
+}
+
+.lineNumber {
+    display: inline;
+    color: blue;
+    font-size: 15px;
+}
+
+body {
+    background-color: white;
+}
