@@ -7,6 +7,11 @@
     font-size: 20;
 }
 
+.chapter-2 {
+    color: green;
+    font-size: 20;
+}
+
 .lineNumber {
     display: inline;
     color: blue;
