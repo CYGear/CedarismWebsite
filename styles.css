@@ -11,6 +11,22 @@
     font-size: 20px;
 }
 
+.home-button-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.home-button {
+    background-color: #24152F;
+    color: rgb(111, 227, 10);
+    padding: 8px;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    border-color: rgb(111, 227, 10);
+}
+
 .books {
     display: flex;
     justify-content: center;
@@ -36,7 +52,7 @@
 .current-book {
     width: 100%;
     height: 700px;
-    border-color: yellow;
+    border-color: rgb(111, 227, 10);
 }
 
 /*Book 1*/

@@ -1,5 +1,7 @@
 const currentBookWindow = document.getElementById("bookContainer");
 
+const homeButton = document.getElementById("homeButton");
+
 const book1 = document.querySelector(".chapter-selector-book1");
 const book1Buttons = document.querySelectorAll(".chapter-selector-book1 .chapterButton");
 
@@ -14,14 +16,24 @@ const bookOneButton = document.getElementById("bookOne");
 const bookTwoButton = document.getElementById("bookTwo");
 const bookThreeButton = document.getElementById("bookThree");
 
-bookOneButton.addEventListener('click', () => {
+// HOME CHECK
+homeButton.addEventListener("click", () => {
+    currentBookWindow.src = "pages/cedarismDefinition.html";
+
+    book1.classList.remove("show");
+    book2.classList.remove("show");
+    book3.classList.remove("show");
+});
+
+// BOOK CHECK
+bookOneButton.addEventListener("click", () => {
     currentBookWindow.src = "pages/bookOne/ch1.html";
     book1.classList.add("show"); // show book1 chapters
 
     book2.classList.remove("show"); // hide book2 chapters
     book3.classList.remove("show"); // yk already
 });
-bookTwoButton.addEventListener('click', () => {
+bookTwoButton.addEventListener("click", () => {
     currentBookWindow.src = "pages/bookTwo/ch1.html";
     book2.classList.add("show"); // show book2 chapters
 
