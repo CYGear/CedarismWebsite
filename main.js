@@ -5,9 +5,9 @@ const bookOneButton = document.getElementById("bookOne");
 const bookTwoButton = document.getElementById("bookTwo");
 
 bookOneButton.addEventListener('click', () => {
-    currentBookWindow.src = "books/bookOne.html";
+    currentBookWindow.src = "pages/bookOne.html";
 });
 
 bookTwoButton.addEventListener('click', () => {
-    currentBookWindow.src = "books/bookTwo.html";
+    currentBookWindow.src = "pages/bookTwo.html";
 });
