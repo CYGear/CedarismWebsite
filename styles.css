@@ -40,6 +40,15 @@
 .chapter-selector-book1.show {
     display: flex;
 }
+.chapter-selector-book2 {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.chapter-selector-book2.show {
+    display: flex;
+}
 .chapterButton {
     background-color: green;
     color: yellow;
