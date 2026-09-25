@@ -1,6 +1,13 @@
+.crest {
+    display: block;
+    margin: 0 auto;
+
+    width: 250px;
+    height: auto;
+}
 .title {
     text-align: center;
-    color: yellow;
+    color: rgb(111, 227, 10);
     font-size: 20px;
 }
 
@@ -11,12 +18,13 @@
 }
 
 .bookButton {
-    background-color: green;
-    color: yellow;
+    background-color: #24152F;
+    color: rgb(111, 227, 10);
     padding: 8px;
     font-size: 15px;
     font-style: italic;
     font-weight: bold;
+    border-color: rgb(111, 227, 10);
 }
 
 .book-container {
@@ -63,8 +71,9 @@
 }
 /*Chapter Selector Buttons*/
 .chapterButton {
-    background-color: green;
-    color: yellow;
+    background-color: #24152F;
+    color: rgb(111, 227, 10);
+    border-color: rgb(111, 227, 10);
     padding: 8px;
     font-size: 15px;
     font-style: italic;
@@ -72,5 +81,5 @@
 }
 
 body {
-    background-color: blueviolet;
+    background-color: #24152F;
 }

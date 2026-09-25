@@ -1,27 +1,27 @@
 .chapter-title {
-    color: blue;
+    color: rgb(152, 215, 165);
 }
 
 .chapter {
-    color: green;
+    color: rgb(195, 195, 225);
     font-size: 20;
 }
 
 .lineNumber {
     display: inline;
-    color: blue;
+    color: rgb(152, 215, 165);
     font-size: 15px;
 }
 
 .cedarismDefinitionPage {
-    background-color: blueviolet;
+    background-color: #24152F;
 }
 .cedarismDefinition {
-    color: white;
+    color: rgb(195, 195, 225);
     font-size: 38px;
     text-align: center;
 }
 
 body {
-    background-color: white;
+    background-color: #24152F;
 }
