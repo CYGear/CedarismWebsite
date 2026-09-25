@@ -31,6 +31,7 @@
     border-color: yellow;
 }
 
+/*Book 1*/
 .chapter-selector-book1 {
     display: none;
     flex-direction: column;
@@ -40,6 +41,7 @@
 .chapter-selector-book1.show {
     display: flex;
 }
+/*Book 2*/
 .chapter-selector-book2 {
     display: none;
     flex-direction: column;
@@ -49,6 +51,17 @@
 .chapter-selector-book2.show {
     display: flex;
 }
+/*Book 3*/
+.chapter-selector-book3 {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.chapter-selector-book3.show {
+    display: flex;
+}
+/*Chapter Selector Buttons*/
 .chapterButton {
     background-color: green;
     color: yellow;
