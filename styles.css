@@ -31,6 +31,24 @@
     border-color: yellow;
 }
 
+.chapter-selector-book1 {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.chapter-selector-book1.show {
+    display: flex;
+}
+.chapterButton {
+    background-color: green;
+    color: yellow;
+    padding: 8px;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+}
+
 body {
     background-color: blueviolet;
 }
