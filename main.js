@@ -9,6 +9,14 @@ const book2Buttons = document.querySelectorAll(".chapter-selector-book2 .chapter
 const book3Chapters = document.querySelector(".chapter-selector-book3");
 const book3Buttons = document.querySelectorAll(".chapter-selector-book3 .chapterButton");
 
+// Discord Server Check
+const discordLinkText = document.getElementById("cedarismLink");
+const discordLink = "https://discord.gg/U8rNeKZXx2"
+
+discordLinkText.addEventListener('click', function(event) {
+    window.open(discordLink, "_blank");
+});
+
 // ------------------------------------------
 function hideAllButtons()
 {
