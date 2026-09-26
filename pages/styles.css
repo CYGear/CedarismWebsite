@@ -14,12 +14,20 @@
     font-size: 15px;
 }
 
-.cedarismDefinitionPage {
-    background-color: #24152F;
-}
 .cedarismDefinition {
     color: rgb(195, 195, 225);
     font-size: 38px;
+    text-align: center;
+}
+
+.character {
+    color: rgb(152, 215, 165);
+    font-size: 38px;
+    text-align: center; 
+}
+.character-definition {
+    color: rgb(195, 195, 225);
+    font-size: 30px;
     text-align: center;
 }
 

@@ -33,8 +33,20 @@
 
     margin-bottom: 15px;
 }
+.books.hidden {
+    display: none;
+}
 
 .button {
+    background-color: #24152F;
+    color: rgb(111, 227, 10);
+    padding: 8px;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    border-color: rgb(111, 227, 10);
+}
+.bookButton {
     background-color: #24152F;
     color: rgb(111, 227, 10);
     padding: 8px;
