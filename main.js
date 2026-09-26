@@ -1,8 +1,5 @@
 const currentBookWindow = document.getElementById("bookContainer");
 
-const homeButton = document.getElementById("homeButton");
-const biosButton = document.getElementById("biosButton");
-
 const book1Chapters = document.querySelector(".chapter-selector-book1");
 const book1Buttons = document.querySelectorAll(".chapter-selector-book1 .chapterButton");
 
@@ -55,6 +52,7 @@ function homeChecker(button, page){
 homeChecker(document.getElementById("homeButton"), "home");
 homeChecker(document.getElementById("biosButton"), "bios");
 homeChecker(document.getElementById("translationNotesButton"), "translationNotes");
+homeChecker(document.getElementById("churchAccountsButton"), "churchAccounts");
 
 // BOOK CHECK
 function bookChecker(button, book){
