@@ -1,0 +1,59 @@
+.title {
+    text-align: center;
+    color: rgb(111, 227, 10);
+    font-size: 20px;
+}
+
+@keyframes click {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+        box-shadow: 0 0 0 rgb(111, 227, 10);
+    }
+    25% {
+        transform: scale(1.2);
+        opacity: 1;
+        box-shadow: 
+            0 0 5px rgb(111, 227, 10),
+            0 0 25px rgb(36, 156, 106),
+            0 0 25px rgb(124, 183, 214);
+    }
+    50% {
+        transform: scale(1.3);
+        opacity: 0.8;
+        box-shadow: 
+            0 0 10px rgb(111, 227, 10),
+            0 0 40px rgb(36, 156, 106),
+            0 0 40px rgb(124, 183, 214);
+    }
+    100% {
+        transform: scale(1.5); 
+        opacity: 0; 
+        box-shadow: 
+            0 0 20px rgba(111, 227, 10, 0),
+            0 0 60px rgba(36, 156, 106, 0),
+            0 0 60px rgba(124, 183, 214, 0);
+    }
+}
+
+.crestClick {
+    display: block;
+    margin: 50px auto;
+    width: 300px;
+    height: auto;
+}
+.crestClick-clicked {
+    animation: click 0.4s ease-out forwards;
+}
+
+.worship-counter {
+    text-align: center;
+    color: rgb(111, 227, 10);
+    font-size: 20px;
+}
+
+.instructions {
+    text-align: center;
+    color: rgb(171, 181, 246);
+    font-size: 20px;
+}

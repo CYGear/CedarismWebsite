@@ -1,8 +1,7 @@
 .crest {
     display: block;
-    margin: 0 auto;
-
-    width: 250px;
+    margin: 50px auto;
+    width: 200px;
     height: auto;
 }
 .title {
@@ -11,29 +10,31 @@
     font-size: 20px;
 }
 
-.home-button-container {
+.home-row-container {
     display: flex;
     justify-content: center;
     padding-bottom: 15px;
-}
 
-.home-button {
-    background-color: #24152F;
-    color: rgb(111, 227, 10);
-    padding: 8px;
-    font-size: 15px;
-    font-style: italic;
-    font-weight: bold;
-    border-color: rgb(111, 227, 10);
+    gap: 20px;
+
+    border: 1px solid rgb(171, 181, 246);
+    padding: 10px;
+
+    margin-bottom: 15px;
 }
 
 .books {
     display: flex;
     justify-content: center;
     gap: 20px;
+
+    border: 1px solid rgb(171, 181, 246);
+    padding: 10px;
+
+    margin-bottom: 15px;
 }
 
-.bookButton {
+.button {
     background-color: #24152F;
     color: rgb(111, 227, 10);
     padding: 8px;
@@ -46,7 +47,6 @@
 .book-container {
     display: flex;
     justify-content: center;
-    padding-top: 10px;
 }
 
 .current-book {

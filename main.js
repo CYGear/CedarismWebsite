@@ -1,6 +1,8 @@
 const currentBookWindow = document.getElementById("bookContainer");
 
 const homeButton = document.getElementById("homeButton");
+const biosButton = document.getElementById("biosButton");
+const worshipButton = document.getElementById("worshipButton");
 
 const book1 = document.querySelector(".chapter-selector-book1");
 const book1Buttons = document.querySelectorAll(".chapter-selector-book1 .chapterButton");
@@ -19,6 +21,20 @@ const bookThreeButton = document.getElementById("bookThree");
 // HOME CHECK
 homeButton.addEventListener("click", () => {
     currentBookWindow.src = "pages/cedarismDefinition.html";
+
+    book1.classList.remove("show");
+    book2.classList.remove("show");
+    book3.classList.remove("show");
+});
+biosButton.addEventListener("click", () => {
+    currentBookWindow.src = "pages/bios.html";
+
+    book1.classList.remove("show");
+    book2.classList.remove("show");
+    book3.classList.remove("show");
+});
+worshipButton.addEventListener("click", () => {
+    currentBookWindow.src = "pages/worship.html";
 
     book1.classList.remove("show");
     book2.classList.remove("show");
