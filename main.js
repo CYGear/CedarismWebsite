@@ -44,17 +44,17 @@ function homeChecker(button, page){
             showBookButtons();
             hideChapters();
         }   
-        else if (page == "bios")
+        else 
         {
             currentBookWindow.src = `pages/${page}.html`;
-            
             hideAllButtons();
-        } 
+        }
     });
 };
 
 homeChecker(document.getElementById("homeButton"), "home");
 homeChecker(document.getElementById("biosButton"), "bios");
+homeChecker(document.getElementById("translationNotesButton"), "translationNotes");
 
 // BOOK CHECK
 function bookChecker(button, book){

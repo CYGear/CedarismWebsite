@@ -20,15 +20,18 @@
     text-align: center;
 }
 
-.character {
+.word {
     color: rgb(152, 215, 165);
     font-size: 38px;
     text-align: center; 
 }
-.character-definition {
+.definition {
     color: rgb(195, 195, 225);
     font-size: 30px;
     text-align: center;
+}
+.note {
+    color: rgb(152, 215, 165);
 }
 
 body {
