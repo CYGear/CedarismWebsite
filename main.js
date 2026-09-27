@@ -9,6 +9,9 @@ const book2Buttons = document.querySelectorAll(".chapter-selector-book2 .chapter
 const book3Chapters = document.querySelector(".chapter-selector-book3");
 const book3Buttons = document.querySelectorAll(".chapter-selector-book3 .chapterButton");
 
+const book4Chapters = document.querySelector(".chapter-selector-book4");
+const book4Buttons = document.querySelectorAll(".chapter-selector-book4 .chapterButton");
+
 // Discord Server Check
 const discordLinkText = document.getElementById("cedarismLink");
 const discordLink = "https://discord.gg/U8rNeKZXx2"
@@ -25,12 +28,14 @@ function hideAllButtons()
     book1Chapters.classList.remove("show");
     book2Chapters.classList.remove("show");
     book3Chapters.classList.remove("show");
+    book4Chapters.classList.remove("show");
 };
 function hideChapters()
 {
     book1Chapters.classList.remove("show");
     book2Chapters.classList.remove("show");
     book3Chapters.classList.remove("show");
+    book4Chapters.classList.remove("show");
 }
 function showBookButtons()
 {
@@ -73,6 +78,7 @@ function bookChecker(button, book){
 
             book2Chapters.classList.remove("show");
             book3Chapters.classList.remove("show");
+            book4Chapters.classList.remove("show");
         }   
         else if (book == "bookTwo")
         {
@@ -81,6 +87,7 @@ function bookChecker(button, book){
 
             book1Chapters.classList.remove("show");
             book3Chapters.classList.remove("show"); 
+            book4Chapters.classList.remove("show");
         } 
         else if (book == "bookThree")
         {
@@ -89,6 +96,16 @@ function bookChecker(button, book){
 
             book1Chapters.classList.remove("show");
             book2Chapters.classList.remove("show");
+            book4Chapters.classList.remove("show");
+        } 
+        else if (book == "bookFour")
+        {
+            currentBookWindow.src = `pages/${book}/ch1.html`;
+            book4Chapters.classList.add("show");
+
+            book1Chapters.classList.remove("show");
+            book2Chapters.classList.remove("show");
+            book3Chapters.classList.remove("show");
         } 
     });
 };
@@ -96,6 +113,7 @@ function bookChecker(button, book){
 bookChecker(document.getElementById("bookOne"), "bookOne");
 bookChecker(document.getElementById("bookTwo"), "bookTwo");
 bookChecker(document.getElementById("bookThree"), "bookThree");
+bookChecker(document.getElementById("bookFour"), "bookFour");
 
 // chapter selector
 function chatperSelector(buttons, book){
@@ -112,3 +130,4 @@ function chatperSelector(buttons, book){
 chatperSelector(book1Buttons, "bookOne");
 chatperSelector(book2Buttons, "bookTwo");
 chatperSelector(book3Buttons, "bookThree");
+chatperSelector(book4Buttons, "bookFour");

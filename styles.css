@@ -123,6 +123,16 @@
 .chapter-selector-book3.show {
     display: flex;
 }
+/*Book 4*/
+.chapter-selector-book4 {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.chapter-selector-book4.show {
+    display: flex;
+}
 /*Chapter Selector Buttons*/
 .chapterButton {
     background-color: #24152F;
