@@ -66,6 +66,7 @@ homeChecker(document.getElementById("homeButton"), "home");
 homeChecker(document.getElementById("biosButton"), "bios");
 homeChecker(document.getElementById("translationNotesButton"), "translationNotes");
 homeChecker(document.getElementById("churchAccountsButton"), "churchAccounts");
+homeChecker(document.getElementById("historyButton"), "history");
 
 // BOOK CHECK
 function bookChecker(button, book){
